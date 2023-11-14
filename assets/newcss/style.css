@@ -1,0 +1,416 @@
+/*
+  Theme Name: Evernet - Software & Saas Startup HTML5 Template
+  Support: admin@gmail.com
+  Description: Evernet - Software & Saas Startup HTML5 Template
+  Version: 1.0
+*/
+
+/* CSS Index
+-----------------------------------
+1. Theme default css
+
+3. Slider
+
+21. Preloader
+
+
+/* 3. Slider */
+.slider-bg {
+	min-height: 721px;
+	background-position: right center;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+.slider-overflow {
+	overflow: hidden;
+	padding-top: 100px;
+}
+.slider-content h2 {
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-bottom: 25px;
+}
+.slider-content h2 span {
+	color: #ff4800;
+}
+.slider-content p {
+	font-size: 18px;
+	color: #8579a6;
+	margin-bottom: 40px;
+}
+.slider-content .btn:hover {
+	box-shadow: none;
+}
+.slider-img.ml-50 {
+	margin-left: 50px;
+}
+.slider-shape {
+	position: absolute;
+	opacity: .18;
+	z-index: -1;
+}
+.s-shape-one {
+	top: 44%;
+	left: 14%;
+	-webkit-animation: animationFramesOne 25s infinite linear;
+	animation: animationFramesOne 25s infinite linear;
+}
+.s-shape-two {
+	left: 30%;
+	top: 30%;
+	-webkit-animation: animationFramesOne 10s infinite linear;
+	animation: animationFramesOne 10s infinite linear;
+}
+.s-shape-three {
+	bottom: 22%;
+	left: 11%;
+	-webkit-animation: animationFramesOne 15s infinite linear;
+	animation: animationFramesOne 15s infinite linear;
+}
+.s-shape-four {
+	left: 54%;
+	top: 35%;
+	-webkit-animation: animationFramesOne 30s infinite linear;
+	animation: animationFramesOne 30s infinite linear;
+}
+.s-shape-five {
+	left: 47%;
+	top: 51%;
+	-webkit-animation: animationFramesOne 15s infinite linear;
+	animation: animationFramesOne 15s infinite linear;
+}
+.s-shape-six {
+	left: 41%;
+	bottom: 20%;
+	-webkit-animation: animationFramesOne 35s infinite linear;
+	animation: animationFramesOne 35s infinite linear;
+}
+.animate-slider-img .slider-main-img {
+	position: unset;
+	opacity: 0;
+	visibility: hidden;
+}
+.animate-slider-img img {
+	position: absolute;
+}
+.animate-slider-img div {
+	position: absolute;
+}
+.animate-slider-img div img {
+	position: unset;
+}
+.animate-slider-img img:nth-child(2) {
+	right: 78px;
+	top: 0;
+}
+.animate-slider-img img:nth-child(3) {
+	bottom: 13px;
+	left: 61px;
+}
+.animate-slider-img img:nth-child(4),
+.animate-slider-img .img-nth-four {
+	left: 95px;
+	top: 57px;
+	z-index: -1;
+}
+.animate-slider-img img:nth-child(5),
+.animate-slider-img .img-nth-five {
+	right: -8px;
+	bottom: 105px;
+	z-index: -1;
+}
+.animate-slider-img img:nth-child(6) {
+	left: 11px;
+	bottom: 119px;
+}
+.animate-slider-img img:nth-child(7) {
+	right: 124px;
+	bottom: 13px;
+}
+.rotateme {
+  -webkit-animation-name: rotateme;
+  animation-name: rotateme;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+.s-slider-bg {
+	background-position: center;
+	background-size: cover;
+	min-height: 963px;
+	position: relative;
+	z-index: 1;
+}
+.s-slider-overflow {
+	padding-top: 200px;
+}
+.s-slider-content h2 {
+	font-size: 65px;
+	color: #fff;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+.s-slider-content p {
+	font-size: 16px;
+	color: #eeeeee;
+	padding-right: 220px;
+	margin-bottom: 35px;
+}
+.s-slider-content .btn {
+	padding: 18px 30px;
+}
+.s-slider-content .btn:hover {
+	background: #fff;
+	color: #57468c;
+}
+.s-slider-content .btn:last-child {
+	background: #fff;
+	color: #57468c;
+	margin-left: 17px;
+}
+.s-slider-content .btn:last-child:hover {
+	background: #ff4800;
+	color: #fff;
+}
+.s-slider-img {
+	margin-left: -80px;
+}
+.s-slider-img img:last-child {
+	position: absolute;
+	left: -160px;
+	bottom: -80px;
+}
+.s-slider-shape {
+	position: absolute;
+	z-index: -1;
+}
+.s-slider-shape-one {
+	right: 33%;
+	top: 15%;
+}
+.s-slider-shape-two {
+	right: 7%;
+	bottom: 27%;
+}
+.t-slider-bg {
+	min-height: 1023px;
+	background-position: center;
+	background-size: cover;
+}
+.t-slider-img {
+	margin-top: 37px;
+}
+.t-slider-overflow {
+	padding-top: 190px;
+}
+.digital-slider-content {
+	padding-right: 55px;
+}
+.digital-slider-content p {
+	padding-right: 60px;
+}
+.digital-slider-overflow {
+	overflow: unset;
+	padding-top: 180px;
+}
+.digital-animate-slider-img {
+	margin-left: -55px;
+}
+.digital-slider-bg {
+	min-height: 826px;
+}
+.digital-animate-slider-img img {
+	position: absolute;
+}
+.digital-animate-slider-img .digital-slider-man {
+	position: absolute;
+	left: 0;
+	top: 62px;
+	z-index: 1;
+}
+.digital-animate-slider-img .digital-slider-cog {
+	position: absolute;
+	right: -86px;
+	top: 133px;
+	z-index: 1;
+}
+.digital-animate-slider-img .digital-slider-main-img {
+	position: unset;
+	opacity: 0;
+	visibility: hidden;
+}
+.digital-slider-phone {
+	top: 0;
+	right: -20px;
+}
+.digital-animate-slider-img div img {
+	position: unset;
+}
+
+
+/* 21. Preloader */
+#preloader{
+	background-color: #58468c;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	margin-top: 0px;
+	top: 0px;
+	z-index: 99;
+}
+#loading-center{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#loading-center-absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 150px;
+	width: 150px;
+	margin-top: -75px;
+	margin-left: -75px;
+}
+.object{
+	width: 20px;
+	height: 20px;
+	background-color: #FFF;
+	float: left;
+	margin-right: 20px;
+	margin-top: 65px;
+	-moz-border-radius: 50% 50% 50% 50%;
+	-webkit-border-radius: 50% 50% 50% 50%;
+	border-radius: 50% 50% 50% 50%;
+}
+#object_one {
+	-webkit-animation: object_one 1.5s infinite;
+	animation: object_one 1.5s infinite;
+}
+#object_two {
+	-webkit-animation: object_two 1.5s infinite;
+	animation: object_two 1.5s infinite;
+	-webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+#object_three {
+    -webkit-animation: object_three 1.5s infinite;
+	animation: object_three 1.5s infinite;
+	-webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+
+}
+
+@-webkit-keyframes object_one {
+75% { -webkit-transform: scale(0); }
+}
+
+@keyframes object_one {
+
+  75% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+}
+
+@-webkit-keyframes object_two {
+
+
+  75% { -webkit-transform: scale(0); }
+
+
+}
+
+@keyframes object_two {
+  75% {
+    transform: scale(0);
+    -webkit-transform:  scale(0);
+  }
+
+}
+
+@-webkit-keyframes object_three {
+
+  75% { -webkit-transform: scale(0); }
+
+}
+
+@keyframes object_three {
+
+  75% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+
+}
+html,body {padding:0;margin:0;}
+.wrap {
+  font:12px Arial, san-serif;
+}
+h1.likert-header {
+  padding-left:4.25%;
+  margin:20px 0 0;
+}
+form .statement {
+  display:block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 30px 0 0 4.25%;
+  margin-bottom:10px;
+}
+form .likert {
+  list-style:none;
+  width:100%;
+  margin:0;
+  padding:0 0 35px;
+  display:block;
+  border-bottom:2px solid #efefef;
+}
+form .likert:last-of-type {border-bottom:0;}
+form .likert:before {
+  content: '';
+  position:relative;
+  top:11px;
+  left:9.5%;
+  display:block;
+  background-color:#efefef;
+  height:4px;
+  width:78%;
+}
+form .likert li {
+  display:inline-block;
+  width:19%;
+  text-align:center;
+  vertical-align: top;
+}
+form .likert li input[type=radio] {
+  display:block;
+  position:relative;
+  top:0;
+  left:50%;
+  margin-left:-6px;
+
+}
+form .likert li label {width:100%;}
+form .buttons {
+  margin:30px 0;
+  padding:0 4.25%;
+  text-align:right
+}
+form .buttons button {
+  padding: 5px 10px;
+  background-color: #67ab49;
+  border: 0;
+  border-radius: 3px;
+}
+form .buttons .clear {background-color: #e9e9e9;}
+form .buttons .submit {background-color: #67ab49;}
+form .buttons .clear:hover {background-color: #ccc;}
+form .buttons .submit:hover {background-color: #14892c;}
